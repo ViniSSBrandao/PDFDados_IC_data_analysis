@@ -1,0 +1,411 @@
+{
+    "md5": "025746f04eb5172e1eb77f861befa4ab",
+    "permalink": "https://www.virustotal.com/gui/file/b910f542a90e8e6773be81989b48d2bbb8dd4488091dcdeb8a375d7a07730c66/detection/f-b910f542a90e8e6773be81989b48d2bbb8dd4488091dcdeb8a375d7a07730c66-1725906029",
+    "positives": 24,
+    "resource": "b910f542a90e8e6773be81989b48d2bbb8dd4488091dcdeb8a375d7a07730c66",
+    "response_code": 1,
+    "scan_date": "2024-09-09 18:20:29",
+    "scan_id": "b910f542a90e8e6773be81989b48d2bbb8dd4488091dcdeb8a375d7a07730c66-1725906029",
+    "scans": {
+        "ALYac": {
+            "detected": true,
+            "result": "Trojan.GenericKD.74002949",
+            "update": "20240909",
+            "version": "2.0.0.10"
+        },
+        "AVG": {
+            "detected": true,
+            "result": "Other:Malware-gen [Trj]",
+            "update": "20240909",
+            "version": "23.9.8494.0"
+        },
+        "Acronis": {
+            "detected": false,
+            "result": null,
+            "update": "20240328",
+            "version": "1.2.0.121"
+        },
+        "AhnLab-V3": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "3.26.1.10507"
+        },
+        "Antiy-AVL": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "3.0"
+        },
+        "Arcabit": {
+            "detected": true,
+            "result": "Trojan.Generic.D4693205",
+            "update": "20240909",
+            "version": "2022.0.0.18"
+        },
+        "Avast": {
+            "detected": true,
+            "result": "Other:Malware-gen [Trj]",
+            "update": "20240909",
+            "version": "23.9.8494.0"
+        },
+        "Avira": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "8.3.3.20"
+        },
+        "Baidu": {
+            "detected": false,
+            "result": null,
+            "update": "20190318",
+            "version": "1.0.0.2"
+        },
+        "BitDefender": {
+            "detected": true,
+            "result": "Trojan.GenericKD.74002949",
+            "update": "20240909",
+            "version": "7.2"
+        },
+        "Bkav": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "2.0.0.1"
+        },
+        "CAT-QuickHeal": {
+            "detected": true,
+            "result": "PDF.Phishing.40976",
+            "update": "20240908",
+            "version": "22.00"
+        },
+        "CMC": {
+            "detected": false,
+            "result": null,
+            "update": "20240908",
+            "version": "2.4.2022.1"
+        },
+        "ClamAV": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "1.4.1.0"
+        },
+        "CrowdStrike": {
+            "detected": false,
+            "result": null,
+            "update": "20231026",
+            "version": "1.0"
+        },
+        "Cybereason": {
+            "detected": false,
+            "result": null,
+            "update": "20240818",
+            "version": "1.2.449"
+        },
+        "Cylance": {
+            "detected": true,
+            "result": "Unsafe",
+            "update": "20240905",
+            "version": "3.0.0.0"
+        },
+        "Cynet": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "4.0.1.1"
+        },
+        "DrWeb": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "7.0.65.5230"
+        },
+        "ESET-NOD32": {
+            "detected": true,
+            "result": "PDF/Phishing.A.Gen",
+            "update": "20240909",
+            "version": "29861"
+        },
+        "Emsisoft": {
+            "detected": true,
+            "result": "Trojan.GenericKD.74002949 (B)",
+            "update": "20240909",
+            "version": "2024.1.0.53752"
+        },
+        "F-Secure": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "18.10.1547.307"
+        },
+        "FireEye": {
+            "detected": true,
+            "result": "Trojan.GenericKD.74002949",
+            "update": "20240909",
+            "version": "35.47.0.0"
+        },
+        "Fortinet": {
+            "detected": true,
+            "result": "PDF/Phishing.938C!tr",
+            "update": "20240909",
+            "version": "None"
+        },
+        "GData": {
+            "detected": true,
+            "result": "Trojan.GenericKD.74002949",
+            "update": "20240909",
+            "version": "A:25.38867B:27.37397"
+        },
+        "Google": {
+            "detected": true,
+            "result": "Detected",
+            "update": "20240909",
+            "version": "1725903027"
+        },
+        "Gridinsoft": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "1.0.186.174"
+        },
+        "Ikarus": {
+            "detected": true,
+            "result": "Trojan.PDF.Phishing",
+            "update": "20240909",
+            "version": "6.3.12.0"
+        },
+        "Jiangmin": {
+            "detected": false,
+            "result": null,
+            "update": "20240908",
+            "version": "16.0.100"
+        },
+        "K7AntiVirus": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "12.187.53207"
+        },
+        "K7GW": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "12.187.53207"
+        },
+        "Kaspersky": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "22.0.1.28"
+        },
+        "Kingsoft": {
+            "detected": false,
+            "result": null,
+            "update": "20240725",
+            "version": "None"
+        },
+        "Lionic": {
+            "detected": true,
+            "result": "Trojan.PDF.Generic.O!c",
+            "update": "20240909",
+            "version": "8.16"
+        },
+        "MAX": {
+            "detected": true,
+            "result": "malware (ai score=88)",
+            "update": "20240909",
+            "version": "2023.1.4.1"
+        },
+        "Malwarebytes": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "4.5.5.54"
+        },
+        "MaxSecure": {
+            "detected": true,
+            "result": "Trojan.WIN32.PDF.Alien.gen",
+            "update": "20240909",
+            "version": "1.0.0.1"
+        },
+        "McAfee": {
+            "detected": true,
+            "result": "Artemis!025746F04EB5",
+            "update": "20240909",
+            "version": "6.0.6.653"
+        },
+        "MicroWorld-eScan": {
+            "detected": true,
+            "result": "Trojan.GenericKD.74002949",
+            "update": "20240909",
+            "version": "14.0.409.0"
+        },
+        "Microsoft": {
+            "detected": true,
+            "result": "Trojan:Script/Wacatac.B!ml",
+            "update": "20240909",
+            "version": "1.1.24070.3"
+        },
+        "NANO-Antivirus": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "1.0.146.25796"
+        },
+        "Panda": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "4.6.4.2"
+        },
+        "Rising": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "25.0.0.28"
+        },
+        "SUPERAntiSpyware": {
+            "detected": false,
+            "result": null,
+            "update": "20240907",
+            "version": "5.6.0.1032"
+        },
+        "Sangfor": {
+            "detected": false,
+            "result": null,
+            "update": "20240903",
+            "version": "2.25.10.0"
+        },
+        "SentinelOne": {
+            "detected": false,
+            "result": null,
+            "update": "20240417",
+            "version": "24.2.1.1"
+        },
+        "Skyhigh": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "v2021.2.0+4045"
+        },
+        "Sophos": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "2.5.5.0"
+        },
+        "Symantec": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "1.22.0.0"
+        },
+        "TACHYON": {
+            "detected": true,
+            "result": "Suspicious/PDF.Alien.Gen",
+            "update": "20240909",
+            "version": "2024-09-09.02"
+        },
+        "Tencent": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "1.0.0.1"
+        },
+        "TrendMicro": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "11.0.0.1006"
+        },
+        "TrendMicro-HouseCall": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "10.0.0.1040"
+        },
+        "VBA32": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "5.0.0"
+        },
+        "VIPRE": {
+            "detected": true,
+            "result": "Trojan.GenericKD.74002949",
+            "update": "20240909",
+            "version": "6.0.0.35"
+        },
+        "Varist": {
+            "detected": true,
+            "result": "PDF/Gerphish.E.gen!Camelot",
+            "update": "20240909",
+            "version": "6.6.1.3"
+        },
+        "ViRobot": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "2014.3.20.0"
+        },
+        "VirIT": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "9.5.783"
+        },
+        "Xcitium": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "37030"
+        },
+        "Yandex": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "5.5.2.24"
+        },
+        "Zillya": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "2.0.0.5190"
+        },
+        "ZoneAlarm": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "1.0"
+        },
+        "Zoner": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "2.2.2.0"
+        },
+        "alibabacloud": {
+            "detected": true,
+            "result": "Trojan[Phishing]:Pdf/PdfPhishing.A",
+            "update": "20240823",
+            "version": "2.1.0"
+        },
+        "huorong": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "f0e1d04:f0e1d04:54b1464:54b1464"
+        },
+        "tehtris": {
+            "detected": false,
+            "result": null,
+            "update": "20240909",
+            "version": "v0.1.4"
+        }
+    },
+    "sha1": "31f9385e7247f4aacd7e8c08cd3abece96bfebe7",
+    "sha256": "b910f542a90e8e6773be81989b48d2bbb8dd4488091dcdeb8a375d7a07730c66",
+    "total": 66,
+    "verbose_msg": "Scan finished, information embedded"
+}

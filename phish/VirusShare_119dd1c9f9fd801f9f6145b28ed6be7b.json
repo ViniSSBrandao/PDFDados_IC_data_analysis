@@ -1,0 +1,327 @@
+{
+    "md5": "119dd1c9f9fd801f9f6145b28ed6be7b",
+    "permalink": "https://www.virustotal.com/gui/file/b5c07f2c89f495d1277ba43b170b40a42d1e1dcdae697d6b16f79b7aa934f65b/detection/f-b5c07f2c89f495d1277ba43b170b40a42d1e1dcdae697d6b16f79b7aa934f65b-1709636745",
+    "positives": 27,
+    "resource": "b5c07f2c89f495d1277ba43b170b40a42d1e1dcdae697d6b16f79b7aa934f65b",
+    "response_code": 1,
+    "scan_date": "2024-03-05 11:05:45",
+    "scan_id": "b5c07f2c89f495d1277ba43b170b40a42d1e1dcdae697d6b16f79b7aa934f65b-1709636745",
+    "scans": {
+        "ALYac": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "2.0.0.8"
+        },
+        "AVG": {
+            "detected": true,
+            "result": "PDF:PhishingX-gen [Phish]",
+            "update": "20240305",
+            "version": "23.9.8494.0"
+        },
+        "Acronis": {
+            "detected": false,
+            "result": null,
+            "update": "20230828",
+            "version": "1.2.0.121"
+        },
+        "AhnLab-V3": {
+            "detected": true,
+            "result": "Phishing/PDF.Malurl.XG4",
+            "update": "20240305",
+            "version": "3.25.1.10473"
+        },
+        "Antiy-AVL": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "3.0"
+        },
+        "Arcabit": {
+            "detected": true,
+            "result": "PDF.Spam.Heur.1",
+            "update": "20240305",
+            "version": "2022.0.0.18"
+        },
+        "Avast": {
+            "detected": true,
+            "result": "PDF:PhishingX-gen [Phish]",
+            "update": "20240305",
+            "version": "23.9.8494.0"
+        },
+        "Avira": {
+            "detected": true,
+            "result": "HTML/Malicious.PDF.Gen2",
+            "update": "20240305",
+            "version": "8.3.3.16"
+        },
+        "Baidu": {
+            "detected": false,
+            "result": null,
+            "update": "20190318",
+            "version": "1.0.0.2"
+        },
+        "Bkav": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "2.0.0.1"
+        },
+        "CAT-QuickHeal": {
+            "detected": true,
+            "result": "PDF.Phishing.43927",
+            "update": "20240304",
+            "version": "22.00"
+        },
+        "CMC": {
+            "detected": false,
+            "result": null,
+            "update": "20240129",
+            "version": "2.4.2022.1"
+        },
+        "Cynet": {
+            "detected": true,
+            "result": "Malicious (score: 99)",
+            "update": "20240305",
+            "version": "4.0.0.29"
+        },
+        "DrWeb": {
+            "detected": true,
+            "result": "PDF.Phisher.300",
+            "update": "20240305",
+            "version": "7.0.62.1180"
+        },
+        "ESET-NOD32": {
+            "detected": true,
+            "result": "PDF/Phishing.A.Gen",
+            "update": "20240305",
+            "version": "28842"
+        },
+        "Emsisoft": {
+            "detected": true,
+            "result": "PDF.Spam.Heur.1 (B)",
+            "update": "20240305",
+            "version": "2022.6.0.32461"
+        },
+        "F-Secure": {
+            "detected": true,
+            "result": "Malware.HTML/Malicious.PDF.Gen2",
+            "update": "20240305",
+            "version": "18.10.1547.307"
+        },
+        "Fortinet": {
+            "detected": true,
+            "result": "PDF/FakeRobot.EC81!tr",
+            "update": "20240305",
+            "version": "None"
+        },
+        "Google": {
+            "detected": true,
+            "result": "Detected",
+            "update": "20240305",
+            "version": "1709631046"
+        },
+        "Gridinsoft": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "1.0.168.174"
+        },
+        "Ikarus": {
+            "detected": true,
+            "result": "Trojan.PDF.Phishing",
+            "update": "20240305",
+            "version": "6.3.9.0"
+        },
+        "Jiangmin": {
+            "detected": false,
+            "result": null,
+            "update": "20240304",
+            "version": "16.0.100"
+        },
+        "K7AntiVirus": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "12.146.51268"
+        },
+        "K7GW": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "12.146.51269"
+        },
+        "Kaspersky": {
+            "detected": true,
+            "result": "HEUR:Hoax.PDF.Phish.gen",
+            "update": "20240305",
+            "version": "22.0.1.28"
+        },
+        "Kingsoft": {
+            "detected": false,
+            "result": null,
+            "update": "20230906",
+            "version": "None"
+        },
+        "Lionic": {
+            "detected": true,
+            "result": "Hacktool.PDF.Phish.3!c",
+            "update": "20240305",
+            "version": "7.5"
+        },
+        "Malwarebytes": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "4.5.5.54"
+        },
+        "MaxSecure": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "1.0.0.1"
+        },
+        "McAfee": {
+            "detected": true,
+            "result": "PDF/Phish-FAK!119DD1C9F9FD",
+            "update": "20240305",
+            "version": "6.0.6.653"
+        },
+        "MicroWorld-eScan": {
+            "detected": true,
+            "result": "PDF.Spam.Heur.1",
+            "update": "20240305",
+            "version": "14.0.409.0"
+        },
+        "NANO-Antivirus": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "1.0.146.25796"
+        },
+        "Panda": {
+            "detected": false,
+            "result": null,
+            "update": "20240304",
+            "version": "4.6.4.2"
+        },
+        "Rising": {
+            "detected": true,
+            "result": "Trojan.Phishing/PDF!1.D8B8 (CLASSIC)",
+            "update": "20240305",
+            "version": "25.0.0.27"
+        },
+        "SUPERAntiSpyware": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "5.6.0.1032"
+        },
+        "Sangfor": {
+            "detected": true,
+            "result": "Malware.Generic-HTML.Save.ma33",
+            "update": "20240305",
+            "version": "2.23.0.0"
+        },
+        "SentinelOne": {
+            "detected": true,
+            "result": "Static AI - Malicious PDF",
+            "update": "20240129",
+            "version": "24.1.0.5"
+        },
+        "Skyhigh": {
+            "detected": true,
+            "result": "BehavesLike.PDF.Suspicious.cb",
+            "update": "20240304",
+            "version": "v2021.2.0+4045"
+        },
+        "Sophos": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "2.4.3.0"
+        },
+        "Symantec": {
+            "detected": true,
+            "result": "Trojan.Gen.NPE",
+            "update": "20240305",
+            "version": "1.21.0.0"
+        },
+        "TACHYON": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "2024-03-05.02"
+        },
+        "TrendMicro": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "11.0.0.1006"
+        },
+        "TrendMicro-HouseCall": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "10.0.0.1040"
+        },
+        "VBA32": {
+            "detected": false,
+            "result": null,
+            "update": "20240304",
+            "version": "5.0.0"
+        },
+        "VIPRE": {
+            "detected": true,
+            "result": "PDF.Spam.Heur.1",
+            "update": "20240304",
+            "version": "6.0.0.35"
+        },
+        "Varist": {
+            "detected": true,
+            "result": "PDF/Captchaphish.D.gen!Camelot",
+            "update": "20240305",
+            "version": "6.5.1.2"
+        },
+        "ViRobot": {
+            "detected": true,
+            "result": "PDF.Z.Agent.106759.A",
+            "update": "20240305",
+            "version": "2014.3.20.0"
+        },
+        "Xcitium": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "36494"
+        },
+        "Yandex": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "5.5.2.24"
+        },
+        "Zillya": {
+            "detected": false,
+            "result": null,
+            "update": "20240304",
+            "version": "2.0.0.5063"
+        },
+        "ZoneAlarm": {
+            "detected": true,
+            "result": "HEUR:Hoax.PDF.Phish.gen",
+            "update": "20240305",
+            "version": "1.0"
+        },
+        "Zoner": {
+            "detected": false,
+            "result": null,
+            "update": "20240305",
+            "version": "2.2.2.0"
+        }
+    },
+    "sha1": "c35b2c717373f701babb0b6d61d3845492b0c0a1",
+    "sha256": "b5c07f2c89f495d1277ba43b170b40a42d1e1dcdae697d6b16f79b7aa934f65b",
+    "total": 52,
+    "verbose_msg": "Scan finished, information embedded"
+}
