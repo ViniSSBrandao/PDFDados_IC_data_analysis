@@ -3,13 +3,13 @@ import os
 from collections import Counter
 
 def categorize_samples(input_csv, output_csv):
-    # Categories to track
-    categories = ['Phishing', 'Trojan', 'Multiple', 'Other', 'None']
+    # Categories to track - Added 'Spam'
+    categories = ['Phishing', 'Trojan', 'Spam', 'Multiple', 'Other', 'None']
     
     # Open output CSV file
     with open(output_csv, 'w', newline='', encoding='utf-8') as outfile:
         writer = csv.writer(outfile)
-        writer.writerow(['Filename', 'Category', 'Phishing_Count', 'Trojan_Count', 'Other_Count', 'None_Count'])
+        writer.writerow(['Filename', 'Category', 'Phishing_Count', 'Trojan_Count', 'Spam_Count', 'Other_Count', 'None_Count'])
         
         # Read input CSV
         try:
@@ -24,9 +24,10 @@ def categorize_samples(input_csv, output_csv):
                     filename = row[0]
                     results = row[1:]  # All antivirus results
                     
-                    # Count detections
+                    # Count detections - Added spam_count
                     phishing_count = 0
                     trojan_count = 0
+                    spam_count = 0
                     other_count = 0
                     none_count = 0
                     
@@ -36,14 +37,16 @@ def categorize_samples(input_csv, output_csv):
                             continue
                         
                         result_lower = result.lower()
-                        if 'phish' in result_lower:
-                            phishing_count += 1
                         if 'trojan' in result_lower:
                             trojan_count += 1
-                        if 'phish' not in result_lower and 'trojan' not in result_lower:
+                        elif 'phish' in result_lower:
+                            phishing_count += 1
+                        elif 'spam' in result_lower:
+                            spam_count += 1
+                        elif 'phish' not in result_lower and 'trojan' not in result_lower and 'spam' not in result_lower:
                             other_count += 1
                     
-                    total_detections = phishing_count + trojan_count + other_count
+                    total_detections = phishing_count + trojan_count + spam_count + other_count
                     
                     # Determine category
                     if total_detections == 0 and none_count > 0:
@@ -54,24 +57,31 @@ def categorize_samples(input_csv, output_csv):
                         # Calculate proportions (excluding None counts)
                         phishing_prop = phishing_count / total_detections if total_detections > 0 else 0
                         trojan_prop = trojan_count / total_detections if total_detections > 0 else 0
+                        spam_prop = spam_count / total_detections if total_detections > 0 else 0
                         
-                        # Check for Multiple category (40-60% range for both)
-                        if (0.4 <= phishing_prop <= 0.6) and (0.4 <= trojan_prop <= 0.6):
+                        # Check for Multiple category (adjusting for three categories)
+                        if (0.4 <= phishing_prop + spam_prop<= 0.6) and (0.4 <= trojan_prop <= 0.6):
                             category = 'Multiple'
                         else:
                             # Most common category among non-None detections
                             counts = {
                                 'Phishing': phishing_count,
                                 'Trojan': trojan_count,
+                                'Spam': spam_count,
                                 'Other': other_count
                             }
                             category = max(counts, key=counts.get)
-                            # If Other is tied with Phishing or Trojan, prefer the specific category
-                            if category == 'Other' and (phishing_count > 0 or trojan_count > 0):
-                                category = 'Phishing' if phishing_count >= trojan_count else 'Trojan'
+                            # If Other is tied with specific categories, prefer the specific category
+                            if category == 'Other' and (phishing_count > 0 or trojan_count > 0 or spam_count > 0):
+                                if phishing_count >= trojan_count and phishing_count >= spam_count:
+                                    category = 'Phishing'
+                                elif trojan_count >= spam_count:
+                                    category = 'Trojan'
+                                else:
+                                    category = 'Spam'
                     
-                    # Write result
-                    writer.writerow([filename, category, phishing_count, trojan_count, other_count, none_count])
+                    # Write result - Added spam_count to output
+                    writer.writerow([filename, category, phishing_count, trojan_count, spam_count, other_count, none_count])
                     
             print(f"Processed {sample_count} samples from {input_csv}")
             print(f"Results written to {output_csv}")
