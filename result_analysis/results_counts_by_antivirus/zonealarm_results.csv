@@ -1,0 +1,6 @@
+Result,Count
+None,3282
+HEUR:Hoax.PDF.Phish.gen,305
+HEUR:Trojan.PDF.Alien.gen,91
+UDS:Hoax.PDF.Phish.gen,46
+HEUR:Hoax.PDF.Agent.gen,1
