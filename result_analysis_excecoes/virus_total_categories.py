@@ -93,7 +93,7 @@ def categorize_samples(input_csv, output_csv):
 
 def main():
     # Configuration - adjust these paths as needed
-    input_csv = '/run/media/vini/SSD/PIBIC-FINAL/a/PDFDados_IC_data_analysis/result_analysis/data_by_file/virus_total_analyses.csv'  # The CSV from the first script
+    input_csv = './result_analysis_excecoes/csvs/virus_total_analyses.csv'  # The CSV from the first script
     output_csv = 'sample_categories.csv'    # Output file name
     
     print(f"Processing CSV file: {input_csv}")
